@@ -2,13 +2,13 @@ def potencia (a, b):
   pass
 
 def divisao (a, b):
-  pass
+  pass      
 
 def multiplicacao (a, b):
   pass
 
 def subtracao (a, b):
-  pass
+  return  a - b
 
 def soma (a, b):
   return a + b
@@ -20,7 +20,7 @@ operacao = input("+: Soma\n-: Subtração\n*: Multiplicação\n/: Divisão\n**: 
 if operacao == '+':
   resultado = soma(a, b)
 elif operacao == '-':
-  resultado = a - b
+  resultado = subtracao(a, b)
 elif operacao == '*':
   resultado = a * b
 elif operacao == '/':
